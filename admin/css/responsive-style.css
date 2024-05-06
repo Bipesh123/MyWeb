@@ -1,0 +1,19 @@
+@media (min-width: 768px) {
+.app.sidenav-toggled .app-content{margin-left:0}
+.app.sidenav-toggled .app-sidebar{left:-230px}
+.app.sidenav-toggled .app-sidebar__overlay{visibility:hidden}
+.app-content{margin-left:230px}
+.app-header{padding-right:30px}
+.app-nav{-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto}
+.app-header__logo {-webkit-box-flex: 0;-ms-flex: 0 0 auto;flex: 0 0 auto;display: block;width: 200px;background-color: #11480d;}
+}
+@media print {
+.app-content{margin:0;padding:0;background-color:#fff}
+.app-header{display:none}
+.app-sidebar{display:none}
+.app-title{display:none}
+}
+@media screen and (prefers-reduced-motion: reduce) {
+.collapsing{-webkit-transition:none;-o-transition:none;transition:none}
+.fade{-webkit-transition:none;-o-transition:none;transition:none}
+}
